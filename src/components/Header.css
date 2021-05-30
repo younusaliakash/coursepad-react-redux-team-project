@@ -1,0 +1,21 @@
+.header{
+    width: 60%;
+    margin: auto;
+    height: 500px;
+}
+.header-container{
+    margin-top: 100px;
+}
+.header-title{
+    margin: auto;
+}
+.header-title h1{
+    font-size: 3rem!important;
+    line-height: 70px;
+}
+.header-img img{
+    width: 100%;
+    height: 100%;
+    border-radius:15px;
+    opacity: 0.9;
+}
