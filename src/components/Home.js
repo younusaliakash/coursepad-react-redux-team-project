@@ -4,6 +4,8 @@ import { useSelector } from "react-redux";
 import currencyFormatter from "currency-formatter";
 import { AiFillStar } from "react-icons/ai";
 import { Link } from "react-router-dom";
+
+
 const Home = () => {
   const { products } = useSelector((state) => state.ProductsReducer);
   return (

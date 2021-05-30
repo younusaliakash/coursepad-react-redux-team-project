@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { BsFillBagFill } from "react-icons/bs";
-const Nav = () => {
+
+const NavMenu = () => {
   const { totalQuantities } = useSelector((state) => state.CartReducer);
   return (
     <div className="nav">
@@ -27,4 +28,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default NavMenu;
